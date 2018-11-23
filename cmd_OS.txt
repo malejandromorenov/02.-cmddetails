@@ -1,0 +1,138 @@
+			#####MICROSOFT#####
+
+apm 			- ATOM				- INSTALL
+npm 			- ATOM				- INSTALL
+choco 			- CHOCOLATEY			- INSTALL
+gpg 			- SERVIDOR CORREO		-
+git 			- GITHUB			- CLONE
+docker 			- DOCKER			- PULL / RUN /
+curl 			- URL				-
+pip 			- PHYTON			- INSTALL
+wheel			- PACKAGE PHYTON 		-
+goland			-				-
+pyyaml			-				-
+ruby			- RUBY APP			- INSTALL
+scoop			- PACKAGE GENERIC		- INSTALL
+gem			- RUBY PACKAGE			-
+gdk			- GITLAB			-
+vagrant			- VAGRANT			-		
+
+			#####LINUX-FEDORA-UBUNTU-DEBIAN-OPENSUSE#####
+
+yum			- DEFAULT REPO LINUX U/F	- INSTALL
+rpm			- DEFAULT REPO LINUX		- INSTALL
+dnf			- DEFAULT REPO LINUX REDHAT	- INSTALL
+apm			- ATOM				- INSTALL
+npm			- ATOM				- INSTALL
+gpg			- SERVIDOR CORREO		-
+git			- GITHUB			- CLONE
+pip			- PHYTON			- INSTALL
+curl			- URL				- 
+casert			-				-
+mono			-				-
+docker			- DOCKER			- PULL / RUN /
+dockerd			- DOCKER DAEMON			-
+wheel   		- PACKAGE PHYTON		-
+scoop			- PACKAGE GENERIC		- INSTALL
+ncl			-				-
+ruby			-				-
+alpine			- CORREO LINUX			-
+gdk			- GITLAB			-
+nfl			-				-
+passman			- PASSMAN REPO GITHUB				-
+freeze			-				-
+yarn			-				-
+**chroot		-				-
+**proot			-				-
+brew			- REPO MACOSX			- INSTALL
+goland			-				-
+vagrant			- VAGRANT			-
+gem			-				-
+
+			#####MACOS#####
+
+brew			- REPO MACOSX			- INSTALL
+
+			####OPENSUSE####
+
+zypper			- REPO LINUX
+
+
+
+//////////////////////////////////////////////////////////////
+
+####OPENSUSE####
+zypper install python-devel
+
+alien -r -c gitkraken-amd64.deb
+
+tar -xvf gitkraken-amd64.tar.gz
+cd gitkraken
+./install.sh
+	
+rpmrebuildr  -pe gitkraken-amd64.rpm
+
+
+tar -xvf google-cloud.tar.gz
+./google-cloud-sdk/install.sh
+
+
+chmod +x install.sh
+
+cat > gitkraken.desktop <<EOL
+[Desktop Entry]
+Name=GitKraken
+Comment=Git Flow
+Exec=/opt/gitkraken/gitkraken
+Icon=/opt/gitkraken/icon.png
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Utility;Development;
+EOL
+
+
+cat > androiddevelopers.desktop <<EOL
+[Desktop Entry]
+Name=Android Developers
+Comment= Android
+Exec= /android-studio/bin/
+Icon=/opt/android-studio/icon.png
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Utility;Development;
+EOL
+
+
+ruby -e "curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install"
+
+set-executionpolicy -s cu unrestricted
+
+
+tar -xvf wyddion-2.51.tar.xz
+
+tar -xvf gwyddion-head.tar.xz
+cd gwyddion-head
+
+
+
+sudo dnf -y install docker-ce.x86_64 18.03.1.ce-3.fc28                   docker-ce-stable
+docker run -it ubuntu bash
+~/.bashrc
+
+docker pull postgres
+docker pull nginx
+
+
+tar -xvf kongdash-0.3.0-linux-x64.tar.gz
+cd kongdash-0.3.0-linux-x64
+./install.sh
+
+sudo ln -s /var/lib/snapd/snap /snap
+
+sudo ln -s /home/student/.sqldeveloper/4.0.0 /4.0.0
+
+
+
+
