@@ -62,8 +62,3 @@ zypper			- REPO LINUX
 
 			####OPENSUSE####
 zypper install python-devel
-
-
-
-
-
