@@ -57,8 +57,5 @@ brew			- REPO MACOSX			- INSTALL
 
 zypper			- REPO LINUX
 
-
-//////////////////////////////////////////////////////////////
-
 			####OPENSUSE####
 zypper install python-devel
