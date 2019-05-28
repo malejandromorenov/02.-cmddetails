@@ -1,31 +1,15 @@
 # ReadMe
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Name 		| Description 	| Type	       |
+| ------------- | ------------- |------------- |
+| apm  | ATOM Repositories  | --install 'any' / --help  |
+| npm  | ATOM Repositories  | --install 'any' / --help 	|
+|
 
 
 	#####MICROSOFT#####
 
-apm 			- ATOM				- INSTALL
-npm 			- ATOM				- INSTALL
+
 choco 			- CHOCOLATEY			- INSTALL
 gpg 			- SERVIDOR CORREO		-
 git 			- GITHUB			- CLONE
