@@ -4,63 +4,26 @@
 | ------------- | ------------- |------------- |
 | apm  | ATOM Repositories  | --install 'any' / --help  |
 | npm  | ATOM Repositories  | --install 'any' / --help 	|
-|
+| gpg  | Signature Message Server | --help		|
+| git  | GitHub 		  | --clone / --help	|
+| docker| Docker Tools		| --run / --pull / --help|
+| curl	| URL Transfers File	| --help		|
+| pip	| Python Depedences	| --help		|
+| wheel | Python Depedences	| --help		|
+| Go 	| Go Lenguage		| --help		|
+| Ruby 	| Ruby Lenguage		| --help and learn RVM	|
+| GEM	| Ruby Dependences	| --help		|
+| Vagrant | Free Environments	| --help / --version	|
+|	|			|			|
+|yum	| Default Repositories Linux	| --install / --help	|
+|rpm	| Default Repositories Linux |	--install / --help |
+|apt *-get*| Default Repositories Linux | --install / --help|
+|dnf *Deprecated* | Default Repositories Linux [Fedora]| --help|
+|cnf *OpenSuse New*| Default Repositories Linux [OpenSuse]| --help|
+|zypper| Default Repositories Linux [OpenSuse]| --help|
+|ncl	| [National Science Foundation](http://www.ncl.ucar.edu/)	|-v	|
+|alpine	| e-mail Server | --version	|
+|yarn	|		|		|
+|brew	|MACINSTOCH Repositories| --install / --version|
 
-
-	#####MICROSOFT#####
-
-
-choco 			- CHOCOLATEY			- INSTALL
-gpg 			- SERVIDOR CORREO		-
-git 			- GITHUB			- CLONE
-docker 			- DOCKER			- PULL / RUN /
-curl 			- URL				-
-pip 			- PHYTON			- INSTALL
-wheel			- PACKAGE PHYTON 		-
-goland			-				-
-pyyaml			-				-
-ruby			- RUBY APP			- INSTALL
-scoop			- PACKAGE GENERIC		- INSTALL
-gem			- RUBY PACKAGE			-
-gdk			- GITLAB			-
-vagrant			- VAGRANT			-		
-
-			#####LINUX-FEDORA-UBUNTU-DEBIAN-OPENSUSE#####
-
-yum			- DEFAULT REPO LINUX U/F	- INSTALL
-rpm			- DEFAULT REPO LINUX		- INSTALL
-dnf			- DEFAULT REPO LINUX REDHAT	- INSTALL
-apm			- ATOM				- INSTALL
-npm			- ATOM				- INSTALL
-gpg			- SERVIDOR CORREO		-
-git			- GITHUB			- CLONE
-pip			- PHYTON			- INSTALL
-curl			- URL				- 
-casert			-				-
-mono			-				-
-docker			- DOCKER			- PULL / RUN /
-dockerd			- DOCKER DAEMON			-
-wheel   		- PACKAGE PHYTON		-
-scoop			- PACKAGE GENERIC		- INSTALL
-ncl			-				-
-ruby			-				-
-alpine			- CORREO LINUX			-
-gdk			- GITLAB			-
-nfl			-				-
-passman			- PASSMAN REPO GITHUB				-
-freeze			-				-
-yarn			-				-
-**chroot		-				-
-**proot			-				-
-brew			- REPO MACOSX			- INSTALL
-goland			-				-
-vagrant			- VAGRANT			-
-gem			-				-
-
-			#####MACOS#####
-
-brew			- REPO MACOSX			- INSTALL
-
-			####OPENSUSE####
-
-zypper			- REPO LINUX
+This option is avaible only if your work in multiplatform system, please be careful.
